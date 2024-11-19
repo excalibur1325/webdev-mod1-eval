@@ -87,7 +87,7 @@ hr {
 	margin: 0 0 1.6rem;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
 	text-transform: uppercase;
 }
@@ -172,13 +172,17 @@ hr {
 
 	.main-article {
 		width: 60%;
+		float: left;
+	}
+
+	.main-article,
+	.main-sidebar {
 		border-radius: 0.6rem;
 		margin: 0;
 	}
 
 	.main-sidebar {
 		width: 40%;
-		border-radius: 0.6rem;
-		margin: 0;
+		float: right;
 	}
 }
