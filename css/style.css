@@ -175,6 +175,10 @@ hr {
 		float: left;
 	}
 
+	.container {
+		display: flex;
+	}
+
 	.main-article,
 	.main-sidebar {
 		border-radius: 0.6rem;
